@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit Calculation</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <div><h2 class="profit_head">Profit Calculation</h2></div>
+    <div> 
+        <label>If </label>
+        <input id="prevProfit" type="number">
+        
+        <label>Profit of</label>
+        <input id="main1" type="number">
+       
+        <label>Then What about for</label>
+        <input id="main2" type="number">
+            <button onclick={calulateFun()}>Calulate</button>
+          <div>
+            <h2 id="showCase1" style="color:red"></h2>
+            <h2 id="showCase2" style="color: green;"></h2>
+          </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
